@@ -1,3 +1,7 @@
 8- mkdir un dos tres
 9- echo "Alberto Aracil Millan" > un.txt
 10- ps aux > ./dos/processos.txt
+16- cat processos.txt | grep root
+17- cat processos.txt | awk '{ print $2, $9 }'
+18- cat processos.txt | grep -n aaracil
+19- cat processos.txt | awk '{ print $1 ":" $2 ":" $11 ":" }' | grep :[1-9][1-9][1-9]:
