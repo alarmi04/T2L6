@@ -4,3 +4,6 @@
 27- cat MobyDick.txt | grep CHAPTER | head -135 > captitulos.txt
 28- cat MobyDick.txt | grep "^Moby"
 29- cat MobyDick.txt | grep "Dick$
+33- cat MobyDick.txt | grep -a2 CHAPTER > resum.txt
+34- sed -i "s/Whale/CACHALOTE/g" > cachalote.txt
+35- cat ../dos/procesos.txt | awk '{print $1 ":" $4 }' > procesos2.txt
