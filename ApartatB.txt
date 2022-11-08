@@ -1,0 +1,6 @@
+24- cat MobyDick.txt | grep Moby | wc -l
+25- cat MobyDick.txt | grep -wo Moby | wc -l
+26- cat MobyDick.txt | grep -wo if | wc -l
+27- cat MobyDick.txt | grep CHAPTER | head -135 > captitulos.txt
+28- cat MobyDick.txt | grep "^Moby"
+29- cat MobyDick.txt | grep "Dick$
